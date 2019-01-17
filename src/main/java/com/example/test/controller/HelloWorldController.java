@@ -13,7 +13,9 @@ public class HelloWorldController {
 
     @GetMapping("/hello")
     public String hello(){
-    	//测试
+    	//C测试
         return "hello world;";
     }
 }
+
+
