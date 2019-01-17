@@ -13,6 +13,7 @@ public class HelloWorldController {
 
     @GetMapping("/hello")
     public String hello(){
+    	//C测试
         return "hello world;";
     }
 }
